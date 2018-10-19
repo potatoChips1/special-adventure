@@ -6,17 +6,20 @@ This is my solution to the calculator assignment.
 3. The tree is evaluating starting from the left most leaf node. 
 
 ie. add(2, 3) would result in:
+```
       add
     /     \
   2        3
+```
  
 ie. let(a, 1, add(a, a)) would result in:
- 
+```
       let
     /  |   \
   a    1     add
   		    /    \
   	       a	  a
+```
 
 
 ## Getting Started
